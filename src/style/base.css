@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Variable Fonts */
+@supports (font-variation-settings: normal) {
+    @font-face {
+        font-family: "Crimson Regular";
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url("../assets/CrimsonPro-VariableFont_wght.ttf") format("truetype");
+    }
+
+}
+
+@layer base {
+    h1 {
+        @apply text-2xl;
+    }
+    h2 {
+        @apply text-xl;
+    }
+    /* ... */
+}
+
+html {
+    @apply bg-background;
+}
+
+:root {
+    @apply antialiased font-serif tracking-tight text-[#050609];
+}
