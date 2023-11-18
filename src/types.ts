@@ -3,4 +3,5 @@ export type website = {
     desc: string;
     title: string;
     ogImage?: string;
+    postPerPage: number
 };

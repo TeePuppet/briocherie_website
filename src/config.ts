@@ -3,9 +3,11 @@ import type { website } from "./types";
 
 export const SITE: website = {
   url: "https://astro-paper.pages.dev/", // replace this with your deployed domain
+  // author: "Briocherie",
   desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
   title: "AstroPaper",
   ogImage: "astropaper-og.jpg",
+  postPerPage: 12
 };
 
 export const LOCALE = ["ro-RO"]; // set to [] to use the environment default
