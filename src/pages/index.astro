@@ -1,12 +1,25 @@
 ---
 import Layout from "../layouts/Layout.astro";
-
+import NavigationBar from "../components/Navigation/NavigationBar.astro";
+import CardCarousel from "../components/cardSection/CardCarousel.astro"
 ---
 
 <Layout>
-	<section>Navigatie cu tag'uri</section>
-	<section>Introducere</section>
-	<section>Briose</section>
-	<section>Torturi</section>
-	<section>Cozonaci</section>
+	<section class="">
+		<NavigationBar />
+	</section>
+	<section class="px-6 my-8">
+		<h2 class="hero">
+			Brioșe si torturi artizanale: delicii personalizate pentru gustul tău.</h2>
+	</section>
+	<section>
+		<h2 class="px-6">Briose</h2>
+		<CardCarousel/>
+	</section>
+	<section>
+		<h2 class="px-6">Torturi</h2>
+	</section>
+	<section>
+		<h2 class="px-6">Cozonaci</h2>
+	</section>
 </Layout>

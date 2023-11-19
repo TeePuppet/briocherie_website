@@ -1,7 +1,7 @@
 ---
-const { label } = Astro.props;
+const { label, active } = Astro.props;
 ---
-<a class="block w-auto px-4 py-2 rounded-full inactive" href="/">
+<a class="block whitespace-nowrap px-5 py-2 rounded-full inactive text-lg " href="/">
     {label}
 </a>
 
@@ -11,6 +11,6 @@ const { label } = Astro.props;
     }
 
     .inactive {
-        @apply bg-main/20;
+        @apply text-[#6B0026] border-2 border-[#6B0026];
     }
 </style>
