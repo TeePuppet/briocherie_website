@@ -2,24 +2,49 @@
 import Layout from "../layouts/Layout.astro";
 import NavigationBar from "../components/Navigation/NavigationBar.astro";
 import CardCarousel from "../components/cardSection/CardCarousel.astro"
+import Card from "../components/cardSection/Card.astro";
 ---
 
 <Layout>
 	<section class="">
 		<NavigationBar />
 	</section>
+	<div class="flex flex-col gap-6">
+
+
 	<section class="px-6 my-8">
 		<h2 class="hero">
 			Brioșe si torturi artizanale: delicii personalizate pentru gustul tău.</h2>
 	</section>
 	<section>
-		<h2 class="px-6">Briose</h2>
-		<CardCarousel/>
+		<h2 class="px-6 mb-4 text-[#6B0026]">Briose</h2>
+		<div class="flex overflow-x-auto gap-3 w-full px-6 no-scrollbar">
+			<Card />
+			<Card />
+			<Card />
+			<Card />
+			<Card />
+		</div>
 	</section>
 	<section>
-		<h2 class="px-6">Torturi</h2>
+		<h2 class="px-6 mb-4 text-[#6B0026]">Torturi</h2>
+		<div class="flex overflow-x-auto gap-3 w-full px-6 no-scrollbar">
+			<Card />
+			<Card />
+			<Card />
+			<Card />
+			<Card />
+		</div>
 	</section>
 	<section>
-		<h2 class="px-6">Cozonaci</h2>
+		<h2 class="px-6 mb-4 text-[#6B0026]">Cozonaci</h2>
+		<div class="flex overflow-x-auto gap-3 w-full px-6 no-scrollbar">
+			<Card />
+			<Card />
+			<Card />
+			<Card />
+			<Card />
+		</div>
 	</section>
+	</div>
 </Layout>
