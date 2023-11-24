@@ -5,9 +5,11 @@ title: Customizing AstroPaper theme color schemes
 postSlug: ""
 featured: false
 draft: false
+
 tags:
   - color-schemes
   - docs
+  - briose
 description:
   How you can enable/disable light & dark mode; and customize color schemes
   of AstroPaper theme.

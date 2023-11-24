@@ -51,3 +51,12 @@ html {
 :root {
     @apply antialiased font-serif tracking-tight text-[#050609];
 }
+
+.socialIcon {
+    height:46px;
+    width:46px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:100%;
+}

@@ -1,8 +1,8 @@
----
+<script lang="ts">
 const currentYear = new Date().getFullYear();
 
 const footerLogo = "assets/logo/briocherie_logo.svg"
----
+</script>
 
 <footer class="px-6 py-6 font-sans mt-10">
   <div class="footer-wrapper">
@@ -24,12 +24,5 @@ const footerLogo = "assets/logo/briocherie_logo.svg"
 </footer>
 
 <style>
-    .socialIcon {
-        height:46px;
-        width:46px;
-        display:flex;
-        align-items:center;
-        justify-content:center;
-        border-radius:100%;
-    }
+
 </style>
