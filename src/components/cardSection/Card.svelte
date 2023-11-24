@@ -6,5 +6,5 @@
         <h3 class="font-medium text-xl mb-2">Nume Briosa</h3>
         <p class=" text-sm leading-5">Brioșă red velvet, insertie de zmeura, crema de branza, mascarpone si frisca</p>
     </div>
-    <img alt="" class="w-full h-full object-cover" src="public/assets/images/image.jpg">
+    <img alt="" class="w-full h-full object-cover" src="assets/images/image.jpg">
 </div>
